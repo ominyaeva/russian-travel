@@ -1,0 +1,7 @@
+.header__logo {
+    transition: opacity 0.5s, visibility 0.4s, transform 0.4s;
+}
+
+.header__logo:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,56 @@
+.places__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    margin: 0 40px 0 0;
+    width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__title {
+       margin-right: 32px;
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .places__title {
+        max-width: 400px;
+        margin-right: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__title {
+        font-size: 42px;
+        line-height: 110%;
+        margin-right: 28px;
+        margin-left: 24px;
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .places__title {
+        margin-right: 0;
+        margin-left: 16px;
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .places__title {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .places__title {
+        width: calc(100% - 32px);
+        font-size: 32px;
+        line-height: 109%;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}
