@@ -7,16 +7,26 @@
     gap: 16px;
 }
 
-@media screen and (max-width: 768px) {
-    .intro {
-        width: 100%;
-        margin-bottom: 88px;
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        gap: 14px;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        width: calc(100% - 48px);
+        margin-top: 88px;
+        margin-bottom: 88px;
+        gap: 16px;
+    }
+}
 
 @media screen and (max-width: 425px) {
-    .intro {
+    .photo-grid {
+        width: calc(100% - 32px);
+        margin-top: 64px;
         margin-bottom: 64px;
+        gap: 12px;
     }
 }

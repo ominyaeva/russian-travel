@@ -7,8 +7,3 @@
     gap: 18px;
     padding: 0;
 }
-
-
-.header__lang-links li:first-child {
-    text-decoration-line: underline;
-}
